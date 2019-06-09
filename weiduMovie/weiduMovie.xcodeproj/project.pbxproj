@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E35AB7D222ACDAD8002F3233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35AB7D122ACDAD8002F3233 /* AppDelegate.m */; };
+		E35AB7D822ACDAD8002F3233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35AB7D622ACDAD8002F3233 /* Main.storyboard */; };
+		E35AB7DB22ACDAD8002F3233 /* weiduMovie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E35AB7D922ACDAD8002F3233 /* weiduMovie.xcdatamodeld */; };
+		E35AB7DD22ACDADC002F3233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35AB7DC22ACDADC002F3233 /* Assets.xcassets */; };
+		E35AB7E022ACDADC002F3233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35AB7DE22ACDADC002F3233 /* LaunchScreen.storyboard */; };
+		E35AB7E322ACDADC002F3233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35AB7E222ACDADC002F3233 /* main.m */; };
+		E35AB7ED22ACDADD002F3233 /* weiduMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35AB7EC22ACDADD002F3233 /* weiduMovieTests.m */; };
+		E35AB7F822ACDADD002F3233 /* weiduMovieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35AB7F722ACDADD002F3233 /* weiduMovieUITests.m */; };
+		E35AB80E22ACDB10002F3233 /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E35AB80C22ACDB10002F3233 /* MainTabBar.m */; };
+		E35AB81222ACDB7E002F3233 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35AB81022ACDB7E002F3233 /* MyViewController.m */; };
+		E35AB81322ACDB7E002F3233 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35AB81122ACDB7E002F3233 /* MyViewController.xib */; };
+		E35AB81722ACDBA6002F3233 /* CinemaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35AB81522ACDBA6002F3233 /* CinemaViewController.m */; };
+		E35AB81822ACDBA6002F3233 /* CinemaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35AB81622ACDBA6002F3233 /* CinemaViewController.xib */; };
+		E35AB81C22ACDBB5002F3233 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35AB81A22ACDBB5002F3233 /* MovieViewController.m */; };
+		E35AB81D22ACDBB5002F3233 /* MovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35AB81B22ACDBB5002F3233 /* MovieViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E35AB7E922ACDADD002F3233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35AB7C522ACDAD8002F3233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35AB7CC22ACDAD8002F3233;
+			remoteInfo = weiduMovie;
+		};
+		E35AB7F422ACDADD002F3233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35AB7C522ACDAD8002F3233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35AB7CC22ACDAD8002F3233;
+			remoteInfo = weiduMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E35AB7CD22ACDAD8002F3233 /* weiduMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiduMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35AB7D022ACDAD8002F3233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E35AB7D122ACDAD8002F3233 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E35AB7D722ACDAD8002F3233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E35AB7DA22ACDAD8002F3233 /* weiduMovie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weiduMovie.xcdatamodel; sourceTree = "<group>"; };
+		E35AB7DC22ACDADC002F3233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E35AB7DF22ACDADC002F3233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E35AB7E122ACDADC002F3233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35AB7E222ACDADC002F3233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E35AB7E822ACDADD002F3233 /* weiduMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiduMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35AB7EC22ACDADD002F3233 /* weiduMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiduMovieTests.m; sourceTree = "<group>"; };
+		E35AB7EE22ACDADD002F3233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35AB7F322ACDADD002F3233 /* weiduMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiduMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35AB7F722ACDADD002F3233 /* weiduMovieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiduMovieUITests.m; sourceTree = "<group>"; };
+		E35AB7F922ACDADD002F3233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35AB80C22ACDB10002F3233 /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
+		E35AB80D22ACDB10002F3233 /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
+		E35AB80F22ACDB7E002F3233 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		E35AB81022ACDB7E002F3233 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		E35AB81122ACDB7E002F3233 /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		E35AB81422ACDBA6002F3233 /* CinemaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CinemaViewController.h; sourceTree = "<group>"; };
+		E35AB81522ACDBA6002F3233 /* CinemaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinemaViewController.m; sourceTree = "<group>"; };
+		E35AB81622ACDBA6002F3233 /* CinemaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CinemaViewController.xib; sourceTree = "<group>"; };
+		E35AB81922ACDBB5002F3233 /* MovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		E35AB81A22ACDBB5002F3233 /* MovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		E35AB81B22ACDBB5002F3233 /* MovieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E35AB7CA22ACDAD8002F3233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35AB7E522ACDADD002F3233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35AB7F022ACDADD002F3233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E35AB7C422ACDAD8002F3233 = {
+			isa = PBXGroup;
+			children = (
+				E35AB7CF22ACDAD8002F3233 /* weiduMovie */,
+				E35AB7EB22ACDADD002F3233 /* weiduMovieTests */,
+				E35AB7F622ACDADD002F3233 /* weiduMovieUITests */,
+				E35AB7CE22ACDAD8002F3233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E35AB7CE22ACDAD8002F3233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB7CD22ACDAD8002F3233 /* weiduMovie.app */,
+				E35AB7E822ACDADD002F3233 /* weiduMovieTests.xctest */,
+				E35AB7F322ACDADD002F3233 /* weiduMovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E35AB7CF22ACDAD8002F3233 /* weiduMovie */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB80B22ACDB10002F3233 /* TabBarController */,
+				E35AB80A22ACDAF4002F3233 /* 我的 */,
+				E35AB80922ACDAF3002F3233 /* 电影院 */,
+				E35AB80822ACDAE7002F3233 /* 影院 */,
+				E35AB80722ACDAE5002F3233 /* others */,
+				E35AB7D622ACDAD8002F3233 /* Main.storyboard */,
+				E35AB7DE22ACDADC002F3233 /* LaunchScreen.storyboard */,
+				E35AB7E122ACDADC002F3233 /* Info.plist */,
+				E35AB7D922ACDAD8002F3233 /* weiduMovie.xcdatamodeld */,
+			);
+			path = weiduMovie;
+			sourceTree = "<group>";
+		};
+		E35AB7EB22ACDADD002F3233 /* weiduMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB7EC22ACDADD002F3233 /* weiduMovieTests.m */,
+				E35AB7EE22ACDADD002F3233 /* Info.plist */,
+			);
+			path = weiduMovieTests;
+			sourceTree = "<group>";
+		};
+		E35AB7F622ACDADD002F3233 /* weiduMovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB7F722ACDADD002F3233 /* weiduMovieUITests.m */,
+				E35AB7F922ACDADD002F3233 /* Info.plist */,
+			);
+			path = weiduMovieUITests;
+			sourceTree = "<group>";
+		};
+		E35AB80722ACDAE5002F3233 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB7E222ACDADC002F3233 /* main.m */,
+				E35AB7D022ACDAD8002F3233 /* AppDelegate.h */,
+				E35AB7D122ACDAD8002F3233 /* AppDelegate.m */,
+				E35AB7DC22ACDADC002F3233 /* Assets.xcassets */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		E35AB80822ACDAE7002F3233 /* 影院 */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB82622ACDDCC002F3233 /* Model */,
+				E35AB82522ACDDCB002F3233 /* View */,
+				E35AB82422ACDDC9002F3233 /* Controller */,
+			);
+			path = "影院";
+			sourceTree = "<group>";
+		};
+		E35AB80922ACDAF3002F3233 /* 电影院 */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB82322ACDDBA002F3233 /* Model */,
+				E35AB82222ACDDB9002F3233 /* View */,
+				E35AB82122ACDDB8002F3233 /* Controller */,
+			);
+			path = "电影院";
+			sourceTree = "<group>";
+		};
+		E35AB80A22ACDAF4002F3233 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB82022ACDDA0002F3233 /* Model */,
+				E35AB81F22ACDD9F002F3233 /* View */,
+				E35AB81E22ACDD9D002F3233 /* Controller */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		E35AB80B22ACDB10002F3233 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB80D22ACDB10002F3233 /* MainTabBar.h */,
+				E35AB80C22ACDB10002F3233 /* MainTabBar.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		E35AB81E22ACDD9D002F3233 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB80F22ACDB7E002F3233 /* MyViewController.h */,
+				E35AB81022ACDB7E002F3233 /* MyViewController.m */,
+				E35AB81122ACDB7E002F3233 /* MyViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E35AB81F22ACDD9F002F3233 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E35AB82022ACDDA0002F3233 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E35AB82122ACDDB8002F3233 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB81422ACDBA6002F3233 /* CinemaViewController.h */,
+				E35AB81522ACDBA6002F3233 /* CinemaViewController.m */,
+				E35AB81622ACDBA6002F3233 /* CinemaViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E35AB82222ACDDB9002F3233 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E35AB82322ACDDBA002F3233 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E35AB82422ACDDC9002F3233 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E35AB81922ACDBB5002F3233 /* MovieViewController.h */,
+				E35AB81A22ACDBB5002F3233 /* MovieViewController.m */,
+				E35AB81B22ACDBB5002F3233 /* MovieViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E35AB82522ACDDCB002F3233 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E35AB82622ACDDCC002F3233 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E35AB7CC22ACDAD8002F3233 /* weiduMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35AB7FC22ACDADD002F3233 /* Build configuration list for PBXNativeTarget "weiduMovie" */;
+			buildPhases = (
+				E35AB7C922ACDAD8002F3233 /* Sources */,
+				E35AB7CA22ACDAD8002F3233 /* Frameworks */,
+				E35AB7CB22ACDAD8002F3233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weiduMovie;
+			productName = weiduMovie;
+			productReference = E35AB7CD22ACDAD8002F3233 /* weiduMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E35AB7E722ACDADD002F3233 /* weiduMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35AB7FF22ACDADD002F3233 /* Build configuration list for PBXNativeTarget "weiduMovieTests" */;
+			buildPhases = (
+				E35AB7E422ACDADD002F3233 /* Sources */,
+				E35AB7E522ACDADD002F3233 /* Frameworks */,
+				E35AB7E622ACDADD002F3233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35AB7EA22ACDADD002F3233 /* PBXTargetDependency */,
+			);
+			name = weiduMovieTests;
+			productName = weiduMovieTests;
+			productReference = E35AB7E822ACDADD002F3233 /* weiduMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E35AB7F222ACDADD002F3233 /* weiduMovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35AB80222ACDADD002F3233 /* Build configuration list for PBXNativeTarget "weiduMovieUITests" */;
+			buildPhases = (
+				E35AB7EF22ACDADD002F3233 /* Sources */,
+				E35AB7F022ACDADD002F3233 /* Frameworks */,
+				E35AB7F122ACDADD002F3233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35AB7F522ACDADD002F3233 /* PBXTargetDependency */,
+			);
+			name = weiduMovieUITests;
+			productName = weiduMovieUITests;
+			productReference = E35AB7F322ACDADD002F3233 /* weiduMovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E35AB7C522ACDAD8002F3233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "刘明辉";
+				TargetAttributes = {
+					E35AB7CC22ACDAD8002F3233 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E35AB7E722ACDADD002F3233 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E35AB7CC22ACDAD8002F3233;
+					};
+					E35AB7F222ACDADD002F3233 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E35AB7CC22ACDAD8002F3233;
+					};
+				};
+			};
+			buildConfigurationList = E35AB7C822ACDAD8002F3233 /* Build configuration list for PBXProject "weiduMovie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E35AB7C422ACDAD8002F3233;
+			productRefGroup = E35AB7CE22ACDAD8002F3233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E35AB7CC22ACDAD8002F3233 /* weiduMovie */,
+				E35AB7E722ACDADD002F3233 /* weiduMovieTests */,
+				E35AB7F222ACDADD002F3233 /* weiduMovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E35AB7CB22ACDAD8002F3233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35AB81822ACDBA6002F3233 /* CinemaViewController.xib in Resources */,
+				E35AB7E022ACDADC002F3233 /* LaunchScreen.storyboard in Resources */,
+				E35AB7DD22ACDADC002F3233 /* Assets.xcassets in Resources */,
+				E35AB81D22ACDBB5002F3233 /* MovieViewController.xib in Resources */,
+				E35AB81322ACDB7E002F3233 /* MyViewController.xib in Resources */,
+				E35AB7D822ACDAD8002F3233 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35AB7E622ACDADD002F3233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35AB7F122ACDADD002F3233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E35AB7C922ACDAD8002F3233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35AB80E22ACDB10002F3233 /* MainTabBar.m in Sources */,
+				E35AB81722ACDBA6002F3233 /* CinemaViewController.m in Sources */,
+				E35AB7DB22ACDAD8002F3233 /* weiduMovie.xcdatamodeld in Sources */,
+				E35AB81C22ACDBB5002F3233 /* MovieViewController.m in Sources */,
+				E35AB7E322ACDADC002F3233 /* main.m in Sources */,
+				E35AB7D222ACDAD8002F3233 /* AppDelegate.m in Sources */,
+				E35AB81222ACDB7E002F3233 /* MyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35AB7E422ACDADD002F3233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35AB7ED22ACDADD002F3233 /* weiduMovieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35AB7EF22ACDADD002F3233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35AB7F822ACDADD002F3233 /* weiduMovieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E35AB7EA22ACDADD002F3233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35AB7CC22ACDAD8002F3233 /* weiduMovie */;
+			targetProxy = E35AB7E922ACDADD002F3233 /* PBXContainerItemProxy */;
+		};
+		E35AB7F522ACDADD002F3233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35AB7CC22ACDAD8002F3233 /* weiduMovie */;
+			targetProxy = E35AB7F422ACDADD002F3233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E35AB7D622ACDAD8002F3233 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35AB7D722ACDAD8002F3233 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E35AB7DE22ACDADC002F3233 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35AB7DF22ACDADC002F3233 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E35AB7FA22ACDADD002F3233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E35AB7FB22ACDADD002F3233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E35AB7FD22ACDADD002F3233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q48FQDB6JM;
+				INFOPLIST_FILE = weiduMovie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiduMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E35AB7FE22ACDADD002F3233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q48FQDB6JM;
+				INFOPLIST_FILE = weiduMovie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiduMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E35AB80022ACDADD002F3233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q48FQDB6JM;
+				INFOPLIST_FILE = weiduMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiduMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiduMovie.app/weiduMovie";
+			};
+			name = Debug;
+		};
+		E35AB80122ACDADD002F3233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q48FQDB6JM;
+				INFOPLIST_FILE = weiduMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiduMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiduMovie.app/weiduMovie";
+			};
+			name = Release;
+		};
+		E35AB80322ACDADD002F3233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q48FQDB6JM;
+				INFOPLIST_FILE = weiduMovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiduMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = weiduMovie;
+			};
+			name = Debug;
+		};
+		E35AB80422ACDADD002F3233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q48FQDB6JM;
+				INFOPLIST_FILE = weiduMovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiduMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = weiduMovie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E35AB7C822ACDAD8002F3233 /* Build configuration list for PBXProject "weiduMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35AB7FA22ACDADD002F3233 /* Debug */,
+				E35AB7FB22ACDADD002F3233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35AB7FC22ACDADD002F3233 /* Build configuration list for PBXNativeTarget "weiduMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35AB7FD22ACDADD002F3233 /* Debug */,
+				E35AB7FE22ACDADD002F3233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35AB7FF22ACDADD002F3233 /* Build configuration list for PBXNativeTarget "weiduMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35AB80022ACDADD002F3233 /* Debug */,
+				E35AB80122ACDADD002F3233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35AB80222ACDADD002F3233 /* Build configuration list for PBXNativeTarget "weiduMovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35AB80322ACDADD002F3233 /* Debug */,
+				E35AB80422ACDADD002F3233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E35AB7D922ACDAD8002F3233 /* weiduMovie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E35AB7DA22ACDAD8002F3233 /* weiduMovie.xcdatamodel */,
+			);
+			currentVersion = E35AB7DA22ACDAD8002F3233 /* weiduMovie.xcdatamodel */;
+			path = weiduMovie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E35AB7C522ACDAD8002F3233 /* Project object */;
+}
